@@ -1,0 +1,18 @@
+/* Demfilz Tier Pricing frontend styles. */
+
+.dtpw-badge {
+	display: inline-block;
+	padding: 0.1em 0.6em;
+	border-radius: 999px;
+	background: #1e7e34;
+	color: #fff;
+	font-size: 0.75em;
+	font-weight: 600;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+ins.dtpw-price {
+	text-decoration: none;
+	font-weight: 600;
+}

@@ -1,0 +1,122 @@
+/* Demfilz Tier Pricing admin styles. */
+
+.dtpw-wrap .dtpw-intro {
+	max-width: 720px;
+	font-size: 14px;
+}
+
+.dtpw-columns {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	align-items: flex-start;
+	margin-top: 16px;
+}
+
+.dtpw-col-list {
+	flex: 2 1 480px;
+	min-width: 320px;
+}
+
+.dtpw-col-form {
+	flex: 1 1 320px;
+	min-width: 280px;
+}
+
+.dtpw-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 6px;
+	padding: 16px 20px 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.dtpw-card h2 {
+	margin-top: 4px;
+}
+
+.dtpw-empty {
+	text-align: left;
+	color: #50575e;
+}
+
+.dtpw-status {
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.dtpw-status-active {
+	background: #d5f5e3;
+	color: #1e7e34;
+}
+
+.dtpw-status-inactive {
+	background: #f0f0f1;
+	color: #646970;
+}
+
+.dtpw-delete {
+	color: #b32d2e;
+}
+
+.dtpw-muted {
+	color: #8c8f94;
+	font-size: 12px;
+}
+
+.dtpw-radio-group label {
+	display: inline-block;
+	margin-bottom: 6px;
+}
+
+.dtpw-table-heading {
+	margin-top: 8px;
+}
+
+.dtpw-row-form {
+	display: flex;
+	gap: 6px;
+	align-items: center;
+}
+
+.dtpw-assign-form .dtpw-customer-search,
+.dtpw-assign-form .select2-container {
+	min-width: 320px;
+	max-width: 100%;
+}
+
+.dtpw-overrides-table .dtpw-hidden {
+	visibility: hidden;
+}
+
+.dtpw-note-hidden {
+	display: none;
+}
+
+.dtpw-overrides-table td,
+.dtpw-overrides-table th {
+	vertical-align: middle;
+}
+
+.dtpw-role-table {
+	max-width: 640px;
+}
+
+@media screen and (max-width: 782px) {
+	.dtpw-columns {
+		display: block;
+	}
+
+	.dtpw-row-form {
+		flex-wrap: wrap;
+	}
+
+	.dtpw-assign-form .dtpw-customer-search,
+	.dtpw-assign-form .select2-container {
+		min-width: 100%;
+	}
+}
